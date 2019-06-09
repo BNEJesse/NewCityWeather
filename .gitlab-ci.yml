@@ -1,1 +1,6 @@
-hello world
+# Using the node alpine image to build the React app
+image: node:alpine
+
+variables:
+  PUBLIC_URL: /city-weather-app
+  S3_BUCKET_NAME: 'my-react'
